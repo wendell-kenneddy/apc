@@ -27,4 +27,4 @@ else:
   for i in range(len(first_set_list)):
     distance += (int(first_set_list[i]) - int(second_set_list[i])) ** 2
 
-  print(f"The euclid distance between the two sets is {distance ** 1/2}")
+  print(f"The euclid distance between the two sets is {distance ** 0.5}")
